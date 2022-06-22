@@ -1,4 +1,4 @@
-import { faDiscord, faGit, faGithub, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faGit, faGithub, faMedium, faReddit, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -13,8 +13,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Plan B is a open community, developing defi product and services." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className='flex items-center'>
+      <main className='space-y-4'>
+        <div className='flex flex-col text-center items-center'>
           <div>
             <Image src="/PlanBLogo.png" width={125} height={125} alt='plan b logo'/>
           </div>
@@ -38,8 +38,8 @@ const Home: NextPage = () => {
               icon={faMedium}
             />
             <Social
-              link="https://twitter.com/PlanBDAO"
-              image={<Image src={"/assets/brands/juice_logo.png"} width={25} height={25} alt="juice box dao logo"/>}
+              link="https://www.reddit.com/r/planbdao/"
+              icon={faReddit}
             />
             <Social
               link="https://github.com/plan-b-dao"
