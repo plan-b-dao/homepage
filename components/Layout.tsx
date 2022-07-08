@@ -17,7 +17,7 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
 
     return (
         <div>
-            <header className={`container bg-cultured mx-auto fixed py-3 sm:py-6 px-3 flex items-center text-dark-jungle top-0 sm:relative ${mobileNav ? "bg-cultured-light" : ""}`}>
+            <header className={`container bg-cultured mx-auto fixed py-6 px-3 flex items-center text-dark-jungle top-0 sm:relative ${mobileNav ? "bg-cultured-light" : ""}`}>
                 <div className='flex'>
                     <Link href="/" >
                         <Image className='hover:cursor-pointer' src="/logo_plan_b_dao.png" width={45} height={45} alt='plan b logo' />
