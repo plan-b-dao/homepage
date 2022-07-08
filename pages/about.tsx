@@ -28,7 +28,7 @@ const About = () => {
                     </p>
                 </div>
             </Section>
-            <Section>
+            <Section className="mb-0 mt-52 sm:my-52">
                 <div className="w-full px-2 bg-gradient p-12 text-cultured">
                     <h2 className='font-bold text-[46px] sm:text-[64px] w-3/4'>
                         JOIN AND BE A PART OF THE CRYPTO REVOLUTION
