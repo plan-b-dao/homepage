@@ -34,8 +34,8 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
                     </div>
                 </div>
                 <div className='ml-auto sm:hidden'>
-                    <div className='p-1 bg-gradient rounded-full' onClick={() => setMobileNav(!mobileNav)}>
-                        <div className={`p-2 ${mobileNav ? "bg-gradient" : "bg-cultured"} rounded-full`}>
+                    <div className='flex p-1 bg-gradient rounded-full' onClick={() => setMobileNav(!mobileNav)}>
+                        <div className={`flex p-2 ${mobileNav ? "bg-gradient" : "bg-cultured"} rounded-full`}>
                             <FontAwesomeIcon icon={mobileNav ? faClose : faBars} className="w-6 h-6" />
                         </div>
                     </div>
