@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className='mx-auto container'>
         <Section>
           <div className='space-y-2 px-2 xl:w-1/2'>
-            <h1 className='font-bold text-h1'>Build for community</h1>
+            <h1 className='font-bold text-[46px] sm:text-h1'>Build for community</h1>
             <p className='text-[24px] font-playfair-display'>
               We are building an open community of investors, builders, and creators to build DeFi products and services. Our ultimate goal is to have crypto-tech hubs all around the world, where like-minded people can meet, discourse, build and learn.
             </p>

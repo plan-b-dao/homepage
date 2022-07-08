@@ -31,7 +31,7 @@ const Pledge = () => {
                 </div>
             </Section>
             <Section>
-                <div className="space-y-4 text-center w-1/2 mx-auto">
+                <div className="space-y-4 text-center w-full sm:w-1/2 mx-auto">
                     <p className="font-playfair-display text-[36px]">
                         If you like to help this cause and contribute, you can find more information on our discord channel.
                     </p>
