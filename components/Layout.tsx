@@ -43,9 +43,9 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
                 {mobileNav &&
                     <div className='z-10 bg-cultured-light h-screen w-full absolute top-[90px] px-4 space-y-8 left-0 sm:hidden'>
                         <nav className='space-y-8 flex flex-col my-4'>
-                            <Navigation to="/">home</Navigation>
-                            <Navigation to="/about">about</Navigation>
-                            <Navigation to="/pledge">pledge</Navigation>
+                            <Navigation onClick={() => setMobileNav(false)} to="/">home</Navigation>
+                            <Navigation onClick={() => setMobileNav(false)} to="/about">about</Navigation>
+                            <Navigation onClick={() => setMobileNav(false)} to="/pledge">pledge</Navigation>
                         </nav>
                         <div>
                             <PrimaryButton link="https://app.planbdao.com">Launch App</PrimaryButton>
