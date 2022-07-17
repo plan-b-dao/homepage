@@ -10,7 +10,7 @@ export const Section: React.FC<ISectionProps> =
         const { children, className } = props;
         
         return (
-            <div className={`items-center my-52 ${className}`}>
+            <div className={`items-center my-52 ${className ?? ""}`}>
                 {children}
             </div>
         );

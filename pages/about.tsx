@@ -1,13 +1,20 @@
+import Head from "next/head";
 import { PrimaryButton } from "../components/buttons";
 import { Section } from "../components/primitives";
 
 const About = () => {
 
     return (
-        <main className="container sm:mx-auto">
+        <>
+            <Head>
+                <title>About | Plan B - Building better money for everyone, open and transparent.</title>
+                <meta name="description" content="Learn more about Plan B ecosystem and our philanthropy projects." />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <main className="container sm:mx-auto">
             <Section>
                 <div className="w-full px-2 sm:w-1/2">
-                    <h2 className='font-bold text-h1'>We are united in code!</h2>
+                    <h2 className='font-bold text-[48px]'>We are united under code!</h2>
                     <p className='text-[24px] font-playfair-display'>
                         We don’t follow names, we don’t care for your status, we are independed thinkers, builder, traders, volunteers who are united under a code.                     
                     </p>
@@ -43,6 +50,8 @@ const About = () => {
                 </div>
             </Section>
         </main>
+        </>
+        
     );
 }
 

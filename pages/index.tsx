@@ -19,6 +19,14 @@ const Home: NextPage = () => {
             </p>
           </div>
         </Section>
+        <Section>
+          <div className='space-y-2 px-2 xl:w-1/2 ml-auto text-right'>
+            <h1 className='font-bold text-[46px] sm:text-h1'>As a founder</h1>
+            <p className='text-[24px] font-playfair-display text-right'>
+              you are getting the first updates, drops, early beta access and be a part of a new money revolution. You will get the first access to our Tree NFTs, Plan B DAO (ERC-20 Token), and our own cryptocurrency with a brand-new tokenomics.
+            </p>
+          </div>
+        </Section>
       </main>
     </>
   )

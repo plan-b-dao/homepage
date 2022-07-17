@@ -30,7 +30,7 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
                         <Navigation to="/pledge">pledge</Navigation>
                     </nav>
                     <div>
-                        <PrimaryButton link="https://app.planbdao.com">Launch App</PrimaryButton>
+                        <PrimaryButton type="gradient" link="https://app.planbdao.com">Launch App</PrimaryButton>
                     </div>
                 </div>
                 <div className='ml-auto sm:hidden'>
@@ -49,7 +49,7 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
                                 <Navigation onClick={() => setMobileNav(false)} to="/pledge">pledge</Navigation>
                             </nav>
                             <div>
-                                <PrimaryButton link="https://app.planbdao.com">Launch App</PrimaryButton>
+                                <PrimaryButton type="gradient" link="https://app.planbdao.com">Launch App</PrimaryButton>
                             </div>
                             <div>
                                 <nav className='flex space-x-4'>
