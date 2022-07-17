@@ -41,38 +41,40 @@ export const Layout: React.FC<ILayoutProps> = ({children}) => {
                     </div>
                 </div>
                 {mobileNav &&
-                    <div className='z-10 bg-cultured-light h-screen w-full absolute top-[90px] px-4 space-y-8 left-0 sm:hidden'>
-                        <nav className='space-y-8 flex flex-col my-4'>
-                            <Navigation onClick={() => setMobileNav(false)} to="/">home</Navigation>
-                            <Navigation onClick={() => setMobileNav(false)} to="/about">about</Navigation>
-                            <Navigation onClick={() => setMobileNav(false)} to="/pledge">pledge</Navigation>
-                        </nav>
-                        <div>
-                            <PrimaryButton link="https://app.planbdao.com">Launch App</PrimaryButton>
-                        </div>
-                        <div>
-                            <nav className='flex space-x-4'>
-                                <Social
-                                link="https://twitter.com/PlanBDAO"
-                                icon={faTwitter}
-                                />
-                                <Social
-                                link="https://discord.gg/4XvxugmejR"
-                                icon={faDiscord}
-                                />
-                                <Social
-                                link="https://medium.com/@planbdao"
-                                icon={faMedium}
-                                />
-                                <Social
-                                link="https://www.reddit.com/r/planbdao/"
-                                icon={faReddit}
-                                />
-                                <Social
-                                link="https://github.com/plan-b-dao"
-                                icon={faGithub}
-                                />
+                    <div className='z-10 bg-cultured-light h-screen w-full absolute top-[90px] px-4 space-y-8 left-0 sm:hidden animate-mobile-animation'>
+                        <div className='opacity-0 animate-mobile-menu-show space-y-8'>
+                            <nav className='space-y-8 flex flex-col my-4'>
+                                <Navigation onClick={() => setMobileNav(false)} to="/">home</Navigation>
+                                <Navigation onClick={() => setMobileNav(false)} to="/about">about</Navigation>
+                                <Navigation onClick={() => setMobileNav(false)} to="/pledge">pledge</Navigation>
                             </nav>
+                            <div>
+                                <PrimaryButton link="https://app.planbdao.com">Launch App</PrimaryButton>
+                            </div>
+                            <div>
+                                <nav className='flex space-x-4'>
+                                    <Social
+                                    link="https://twitter.com/PlanBDAO"
+                                    icon={faTwitter}
+                                    />
+                                    <Social
+                                    link="https://discord.gg/4XvxugmejR"
+                                    icon={faDiscord}
+                                    />
+                                    <Social
+                                    link="https://medium.com/@planbdao"
+                                    icon={faMedium}
+                                    />
+                                    <Social
+                                    link="https://www.reddit.com/r/planbdao/"
+                                    icon={faReddit}
+                                    />
+                                    <Social
+                                    link="https://github.com/plan-b-dao"
+                                    icon={faGithub}
+                                    />
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 }

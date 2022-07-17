@@ -1,3 +1,4 @@
+import { PrimaryButton } from "../components/buttons";
 import { Section } from "../components/primitives";
 
 const About = () => {
@@ -29,10 +30,16 @@ const About = () => {
                 </div>
             </Section>
             <Section className="mb-0 mt-52 sm:my-52">
-                <div className="w-full px-2 bg-gradient p-12 text-cultured">
-                    <h2 className='font-bold text-[46px] sm:text-[64px] w-3/4'>
+                <div className="w-full pl-10 bg-cover bg-philanthropy p-12 text-cultured">
+                    <h2 className='font-bold  text-[46px] sm:text-[64px] w-3/4'>
                         JOIN AND BE A PART OF THE CRYPTO REVOLUTION
                     </h2>
+                    <p className="text-[24px] font-playfair-display">
+                        Find out more about our pledge and how our philanthropy program works with our native tokens, and how you can be a part of it! 
+                    </p>
+                    <div className="flex justify-center mt-10">
+                        <PrimaryButton type="secondary" link="/pledge">read more</PrimaryButton>
+                    </div>
                 </div>
             </Section>
         </main>
