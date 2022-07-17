@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main className='mx-auto container'>
         <Section>
-          <div className='space-y-2 px-2 xl:w-1/2'>
+          <div className='space-y-2 px-2 xl:w-1/2 text-center sm:text-left'>
             <h1 className='font-bold text-[46px] sm:text-h1'>Build for community</h1>
             <p className='text-[24px] font-playfair-display'>
               We are building an open community of investors, builders, and creators to build DeFi products and services. Our ultimate goal is to have crypto-tech hubs all around the world, where like-minded people can meet, discourse, build and learn.
@@ -20,9 +20,9 @@ const Home: NextPage = () => {
           </div>
         </Section>
         <Section>
-          <div className='space-y-2 px-2 xl:w-1/2 ml-auto text-right'>
+          <div className='space-y-2 px-2 xl:w-1/2 ml-auto text-center sm:text-right'>
             <h1 className='font-bold text-[46px] sm:text-h1'>As a founder</h1>
-            <p className='text-[24px] font-playfair-display text-right'>
+            <p className='text-[24px] font-playfair-display '>
               you are getting the first updates, drops, early beta access and be a part of a new money revolution. You will get the first access to our Tree NFTs, Plan B DAO (ERC-20 Token), and our own cryptocurrency with a brand-new tokenomics.
             </p>
           </div>
