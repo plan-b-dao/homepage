@@ -45,14 +45,14 @@ const Home: NextPage = () => {
             </div>
             <div>
               <p className='text-[24px] sm:w-1/2 mx-auto font-playfair-display'>
-                Getting the first founders and release of the token, nft, plant of the first tree,  and release of white paper.
+                Getting the first 1000 founders, white paper release, founder NFT, and start of 1 Million Tree pledge!
               </p>
             </div>
             <div className='space-y-8 my-2 mx-auto flex flex-col items-center'>
               <Achievement completed={false}>1000 Founders</Achievement>
-              <Achievement completed={false}>Release of web3 application</Achievement>
-              <Achievement completed={false}>First Tree Plant</Achievement>
               <Achievement completed={false}>White Paper Release</Achievement>
+              <Achievement completed={false}>Founder NFT ( not tradable )</Achievement>
+              <Achievement completed={false}>Start of 1 Million Tree Pledge</Achievement>
             </div>
           </div>
           <div className='space-y-8 text-center p-6 my-2'>
