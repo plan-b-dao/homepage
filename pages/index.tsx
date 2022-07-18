@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { FounderCount } from '../components/misc'
+import { FounderCount, MilestoneTable } from '../components/misc'
 import { Achievement } from '../components/misc/Achievement'
 import { Section } from '../components/primitives'
 
@@ -33,6 +33,17 @@ const Home: NextPage = () => {
             <p className='text-[24px] font-playfair-display '>
               you are getting the first updates, drops, early beta access and be a part of a new money revolution. You will get the first access to our Tree NFTs, Plan B DAO (ERC-20 Token), and our own cryptocurrency with a brand-new tokenomics.
             </p>
+          </div>
+          <div className='space-y-2 px-2'>
+            <div className='sm:w-1/2'>
+              <h1 className='font-bold text-[46px] sm:text-h1'>Founder Privlage</h1>
+              <p className='text-[24px] font-playfair-display '>
+                Your ETH is never lock away for good, inside the contract between you and plan b you have the rights to withdraw all or partial of your eth back as a founder. As you can see it on the table
+              </p>
+            </div>
+            <div className='mx-auto sm:w-1/2'>
+              <MilestoneTable />
+            </div>
           </div>
         </Section>
         <Section>
