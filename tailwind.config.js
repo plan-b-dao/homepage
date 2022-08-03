@@ -35,7 +35,8 @@ module.exports = {
       },
       backgroundImage: {
         "gradient": "linear-gradient(to right bottom, #33ff79, #34ff8f, #3dffa2, #4bffb4, #5cffc3)",
-        "philanthropy": "url('/assets/images/philanthropy-bg.png')"
+        "philanthropy": "url('/assets/images/philanthropy-bg.png')",
+        "ecosystem": "url('/assets/images/plan-b-eco-system.png')"
       },
       height: {
         'half-screen': "calc(100vh - 25vh)"

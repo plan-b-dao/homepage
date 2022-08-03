@@ -15,7 +15,12 @@ const Home: NextPage = () => {
       <main className='mx-auto container'>
         <Section>
           <div className='flex relative items-center w-full sm:w-1/2 mx-auto text-center justify-center py-12' style={{transform: "rotate(-15deg)", zIndex: "-1"}}>
-            <h1 className='text-[62px] xl:text-[96px] font-bold'>We BRRR our own <span className='uppercase bg-gradient px-6 rounded-2xl text-white shadow-2xl'>cash</span></h1>
+            <h1 className='text-[46px] xl:text-[96px] font-bold'>We BRRR our own <span className='uppercase bg-gradient px-6 rounded-2xl text-white shadow-2xl'>cash</span></h1>
+          </div>
+        </Section>
+        <Section>
+          <div className='w-full h-screen bg-cover bg-ecosystem'>
+
           </div>
         </Section>
         <Section>
