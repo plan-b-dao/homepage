@@ -17,6 +17,21 @@ const Home: NextPage = () => {
           <div className='flex relative items-center w-full sm:w-1/2 mx-auto text-center justify-center py-12' style={{transform: "rotate(-15deg)", zIndex: "-1"}}>
             <h1 className='text-[46px] xl:text-[96px] font-bold'>We BRRR our own <span className='uppercase bg-gradient px-6 rounded-2xl text-white shadow-2xl'>cash</span></h1>
           </div>
+          <div className='text-right font-bold text-xs sm:text-base'>
+            <h6>* more community, more cash for everyone!</h6>
+          </div>
+        </Section>
+        <Section>
+          <div className='w-1/2 mx-auto'>
+            <div>
+              <h1 className='sm:text-[96px] font-bold'>Time to decouple fiat from crypto.</h1>
+            </div>
+            <div>
+              <p className=' font-playfair-display text-[32px]'>
+                Crypto should connect people, and make money easy, accessible, transparent, global, and better but seems like we are falling for the same tricks again. This is why <span className='uppercase font-bold font-poppins'>plan b</span> was founded, we know the system is rigged and we want to build fiat 2.0, an eco-system where ideas, builders, and communities can meet and build new types of wealth.
+              </p>
+            </div>
+          </div>
         </Section>
         <Section>
           <div className='w-full h-screen bg-cover bg-ecosystem'>
