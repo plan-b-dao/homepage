@@ -22,12 +22,12 @@ const Home: NextPage = () => {
           </div>
         </Section>
         <Section>
-          <div className='w-full sm:w-1/2 mx-auto'>
+          <div className='w-full sm:w-1/2 mx-8 sm:mx-auto'>
             <div>
-              <h1 className='text-[46px] sm:text-[96px] font-bold'>Time to decouple fiat from crypto.</h1>
+              <h1 className='text-[42px] sm:text-[96px] font-bold'>Time to decouple fiat from crypto.</h1>
             </div>
             <div>
-              <p className=' font-playfair-display text-[26px] sm:text-[32px]'>
+              <p className=' font-playfair-display text-[24px] sm:text-[32px]'>
                 Crypto should connect people, and make money easy, accessible, transparent, global, and better but seems like we are falling for the same tricks again. This is why <span className='uppercase font-bold font-poppins'>plan b</span> was founded, we know the system is rigged and we want to build fiat 2.0, an eco-system where ideas, builders, and communities can meet and build new types of wealth.
               </p>
             </div>
