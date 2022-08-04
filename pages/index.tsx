@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Plan B is a open community, developing defi product and services." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='mx-auto container'>
+      <main className='sm:mx-auto container'>
         <Section>
           <div className='flex relative items-center w-full sm:w-1/2 mx-auto text-center justify-center py-12' style={{transform: "rotate(-15deg)", zIndex: "-1"}}>
             <h1 className='text-[46px] xl:text-[96px] font-bold'>We BRRR our own <span className='uppercase bg-gradient px-6 rounded-2xl text-white shadow-2xl'>cash</span></h1>
@@ -34,9 +34,9 @@ const Home: NextPage = () => {
           </div>
         </Section>
         <Section>
-          <div className='flex py-3 space-x-3'>
+          <div className='flex flex-col sm:flex-row py-3 space-y-3 sm:space-x-3'>
               <div className='flex flex-1 justify-end'>
-                  <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
+                  <div className='flex flex-col w-full xl:w-1/2 sm:max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
                     <h4 className='font-bold text-[24px]'>Plan B DAO</h4>
                     <p className=' font-playfair-display py-3'>
                       Vote on new assets listing, assets raiting, print of <span className='font-poppins font-bold'>CASH</span>, and implementation of new retail investors defi features.
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                   </div>
               </div>
               <div className='flex flex-1'>
-                  <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
+                  <div className='flex flex-col w-full xl:w-1/2 sm:max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
                     <h4 className='font-bold text-[24px]'>CASH</h4>
                     <p className=' font-playfair-display py-3'>
                       The stable coin that gives you the <span className='font-poppins font-bold'>10%</span> extra. Printed by the dao, distribute by the community.
@@ -58,9 +58,9 @@ const Home: NextPage = () => {
                   </div>
               </div>
           </div>
-          <div className='flex  py-3 space-x-3'>
+          <div className='flex flex-col sm:flex-row sm:py-3 space-y-3 sm:space-x-3'>
               <div className='flex flex-1 justify-end'>
-                <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tr-2xl'>
+                <div className='flex flex-col w-full xl:w-1/2 sm:max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tr-2xl'>
                   <h4 className='font-bold text-[24px]'>A BETTER BANK</h4>
                   <p className=' font-playfair-display py-3'>
                     A Bank wihtout a CEO, only code and community. 
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
               <div className='flex flex-1'>
-                <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tl-2xl'>
+                <div className='flex flex-col w-full xl:w-1/2 sm:max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tl-2xl'>
                   <h4 className='font-bold text-[24px]'>1 Million Tree NFT</h4>
                   <p className=' font-playfair-display py-3'>
                     We pledge for every transaction to plant a Tree, up to 1 Million. 
