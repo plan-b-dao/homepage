@@ -24,18 +24,63 @@ const Home: NextPage = () => {
         <Section>
           <div className='w-full sm:w-1/2 mx-8 sm:mx-auto'>
             <div>
-              <h1 className='text-[42px] sm:text-[96px] font-bold'>Time to decouple fiat from crypto.</h1>
+              <h1 className='text-[42px] sm:text-[96px] font-bold'>It is time for a crypto revolution.</h1>
             </div>
             <div>
               <p className=' font-playfair-display text-[24px] sm:text-[32px]'>
-                Crypto should connect people, and make money easy, accessible, transparent, global, and better but seems like we are falling for the same tricks again. This is why <span className='uppercase font-bold font-poppins'>plan b</span> was founded, we know the system is rigged and we want to build fiat 2.0, an eco-system where ideas, builders, and communities can meet and build new types of wealth.
+                Crypto should connect people, and make money easy, accessible, transparent, global, and better but seems like we are falling for the same tricks again. This is why <span className='uppercase font-bold font-poppins'>plan b</span> was founded, we know the system could do better and we want to build fiat 2.0, an eco-system where ideas, builders, and communities can meet and build new types of wealth.
               </p>
             </div>
           </div>
         </Section>
         <Section>
-          <div className='w-full h-screen bg-cover bg-ecosystem'>
-
+          <div className='flex py-3 space-x-3'>
+              <div className='flex flex-1 justify-end'>
+                  <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
+                    <h4 className='font-bold text-[24px]'>Plan B DAO</h4>
+                    <p className=' font-playfair-display py-3'>
+                      Vote on new assets listing, assets raiting, print of <span className='font-poppins font-bold'>CASH</span>, and implementation of new retail investors defi features.
+                    </p>
+                    <p className=' font-playfair-display py-3'>
+                    Total Supply: <span className='font-poppins font-bold'>1,000,000 PLB</span>
+                    </p>
+                  </div>
+              </div>
+              <div className='flex flex-1'>
+                  <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-bl-2xl'>
+                    <h4 className='font-bold text-[24px]'>CASH</h4>
+                    <p className=' font-playfair-display py-3'>
+                      The stable coin that gives you the <span className='font-poppins font-bold'>10%</span> extra. Printed by the dao, distribute by the community.
+                    </p>
+                    <p className=' font-playfair-display py-3 text-[64px] text-center'>
+                      X<sup>2</sup>
+                    </p>
+                  </div>
+              </div>
+          </div>
+          <div className='flex  py-3 space-x-3'>
+              <div className='flex flex-1 justify-end'>
+                <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tr-2xl'>
+                  <h4 className='font-bold text-[24px]'>A BETTER BANK</h4>
+                  <p className=' font-playfair-display py-3'>
+                    A Bank wihtout a CEO, only code and community. 
+                  </p>
+                  <p className=' font-playfair-display py-3'>
+                    Goal of B-Bank is to create an easy and transparent way to manage your crypto assets, spend it and invest. 
+                  </p>
+                </div>
+              </div>
+              <div className='flex flex-1'>
+                <div className='flex flex-col w-1/2 max-w-[320px] bg-cultured-dark hover:bg-dark-jungle text-dark-jungle hover:text-cultured-light transition-colors cursor-pointer min-h-[265px] py-4 px-6 rounded-tl-2xl'>
+                  <h4 className='font-bold text-[24px]'>1 Million Tree NFT</h4>
+                  <p className=' font-playfair-display py-3'>
+                    We pledge for every transaction to plant a Tree, up to 1 Million. 
+                  </p>
+                  <p className=' font-playfair-display py-3'>
+                    Every Tree is a NFT that is ownable, tradable. Visiting the location mint you coins.
+                  </p>
+                </div>
+              </div>
           </div>
         </Section>
         <Section>
